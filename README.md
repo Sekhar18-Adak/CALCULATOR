@@ -1,6 +1,7 @@
 # Calculator-Web-App
-A fully responsive and user-friendly calculator web application built using HTML, CSS, JavaScript, jQuery, and Bootstrap 5.3.3. This project provides a clean UI and supports basic arithmetic operations with real-time evaluation.
-***Features:*** <br>
+A fully responsive and user-friendly calculator web application built using HTML, CSS, JavaScript, jQuery, and Bootstrap 5.3.3. This project provides a clean UI and supports basic arithmetic operations with real-time evaluation.<br>
+
+# Features: <br>
 *1. Responsive Design with Bootstrap 5.3.3:* 
 The calculator UI adapts to different screen sizes using Bootstrap’s grid system. Works seamlessly on desktops, tablets, and mobile devices.<br>
 *2. Bootstrap Icons for Enhanced UI:*
@@ -22,7 +23,7 @@ Uses JavaScript’s eval() function to instantly compute results when the = butt
 A separate CSS file (style.css) is used to enhance the calculator’s design. Custom styles are applied to buttons, display, and layout for better aesthetics.<br>
 <b️>7.jQuery 3.7.1 for Event Handling:</b><br>
 Uses jQuery to handle button clicks efficiently. Dynamically updates the input display and calculation output.<br>
- ***Technologies Used:*** <br>
+ # Technologies Used: <br>
 *1️⃣ HTML5:-*
 Used for structuring the webpage layout and elements.<br>
 *2️⃣ CSS3:-*

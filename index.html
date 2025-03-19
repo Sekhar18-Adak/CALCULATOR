@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="bootstarpp1/css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container p-5">
+      <div class="d-flex justify-content-center">
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="card">
+            <div class="d-flex justify-content-center alighn-items-center p-3">
+              <div class="row">
+                <div
+                  class="col-sm-12 col-md-12 col-lg-12 col-xl-12 displaystyle"
+                >
+                  <div class="inputstring"></div>
+                  <div class="expressionstring"></div>
+                  <div class="valuetring"></div>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center alighn-items-center p-3">
+              <div class="row">
+                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                  <button
+                    type="button"
+                    class="btnstyle"
+                    data-value="num-lock"
+                  >
+                    <small>Num Lock</small>
+                  </button>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                  <button
+                    type="button"
+                    class="btnstyle"
+                    data-value="CE"
+                  >
+                    CE
+                  </button>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                  <button
+                    type="button"
+                    class="btnstyle"
+                    data-value="del"
+                  >
+                    Del
+                  </button>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                  <button
+                    type="button"
+                    class="btnstyle"
+                    data-value="/"
+                  >
+                    /
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center alighn-items-center p-3">
+              <div class="row">
+                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                  <button
+                    type="button"
+                    class="btnstyle"
+                    data-value="7"
+                  >
+                    7
+                  </button>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                  <button
+                    type="button"
+                    class="btnstyle"
+                    data-value="8"
+                  >
+                    8
+                  </button>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                  <button
+                    type="button"
+                    class="btnstyle"
+                    data-value="9"
+                  >
+                    9
+                  </button>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                  <button
+                    type="button"
+                    class="btnstyle"
+                    data-value="x"
+                  >
+                    x
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center alighn-items-center p-3">
+              <div class="row">
+                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                  <button
+                    type="button"
+                    class="btnstyle"
+                    data-value="4"
+                  >
+                    4
+                  </button>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                  <button
+                    type="button"
+                    class="btnstyle"
+                    data-value="5"
+                  >
+                    5
+                  </button>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                  <button
+                    type="button"
+                    class="btnstyle"
+                    data-value="6"
+                  >
+                    6
+                  </button>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                  <button
+                    type="button"
+                    class="btnstyle"
+                    data-value="-"
+                  >
+                    -
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center alighn-items-center p-3">
+              <div class="row">
+                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                  <button
+                    type="button"
+                    class="btnstyle"
+                    data-value="1"
+                  >
+                    1
+                  </button>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                  <button
+                    type="button"
+                    class="btnstyle"
+                    data-value="2"
+                  >
+                    2
+                  </button>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                  <button
+                    type="button"
+                    class="btnstyle"
+                    data-value="3"
+                  >
+                    3
+                  </button>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                  <button
+                    type="button"
+                    class="btnstyle"
+                    data-value="+"
+                  >
+                    +
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center alighn-items-center p-3">
+              <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                  <button
+                    type="button"
+                    class="btnstyle"
+                    style="width: 150px"
+                    data-value="0"
+                  >
+                    0
+                  </button>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                  <button
+                    type="button"
+                    class="btnstyle"
+                    data-value="."
+                  >
+                    .
+                  </button>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                  <button
+                    type="button"
+                    class="btnstyle"
+                    data-value="="
+                  >
+                    =
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="bootstarpp1/js/bootstrap.js"></script>
+    <script>
+      $(document).ready(function() {
+    let inputText = ""; // Stores the expression
+
+    $('.btnstyle').on('click', function() {
+        let value = $(this).data('value'); // Get the clicked button value
+
+        // Skip logging if "=" is clicked
+        if (value !== "=") {
+            console.log("Button Clicked: " + value);
+        }
+
+        if (value === "del") {
+            inputText = inputText.slice(0, -1); // Remove last character
+        } else if (value === "CE") {
+            inputText = ""; // Clear all input
+            $('.valuetring').text(""); // Clear result display
+        } else if (value === "=") {
+            try {
+                let result = eval(inputText.replace(/x/g, '*')).toString(); // Evaluate expression
+                $('.valuetring').text(result); // Display result
+            } catch (e) {
+                $('.valuetring').text("0"); // Handle invalid expressions
+            }
+        } else {
+            inputText += value; // Append number/operator
+        }
+
+        $('.inputstring').text(inputText); // Update input display
+    });
+});
+
+    </script>
+  </body>
+</html>
